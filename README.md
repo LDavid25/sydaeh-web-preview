@@ -12,7 +12,7 @@ Currently, two official plugins are available:
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+**Client:** React
 
 **Server:** Node, Express
 
