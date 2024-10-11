@@ -1,68 +1,70 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/*Colores primarios*/
+.c-azul{
+    color: #1226AB;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.c-cyan{
+    color: #05D1DB;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+/*Background*/
+.bg-cyan-100{
+    background-color: (5, 209, 219, 0.1);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.bg-sydaeh{
+    background: url('src/assets/img/bg-sydaeh.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-sydaeh-2{
+    background: url('src/assets/img/bg-sydaeh-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/*BOTONES*/
+.btn-rounded-borde{
+    border: solid 2px #05D1DB;
+    border-radius: 50%;
+    padding: 10px 50px;
+    color: #1226AB;
+    font-size: 1.5rem;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btn-rounded-borde-cyan{
+    border: solid 2px #05D1DB;
+    border-radius: 24px;
+    padding: 10px 50px;
+    color: #1226AB;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #05D1DB;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/*Otros*/
+.scale-up{
+    transform: scale(1.5);
+}
+
+hr {
+    margin: 10px 0;
+    height: 20px;
+    width: 30%;
+    background-color: #05D1DB !important;
+    opacity: 1;
+}
+
+.ml-n1 {
+    margin-left: -0.25rem !important;
   }
-  a:hover {
-    color: #747bff;
+.ml-n2 {
+    margin-left: -0.5rem !important;
   }
-  button {
-    background-color: #f9f9f9;
+.ml-n3 {
+    margin-left: -0.75rem !important;
   }
-}
