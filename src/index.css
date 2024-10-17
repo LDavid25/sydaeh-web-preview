@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
+/*GLOBAL*/
+p, span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #101B51;
+}
+
+@media (max-width: 768px) { 
+    section{
+        padding: 0% 3% 0 3%;
+    }
+ }
+
 
 /*Colores primarios*/
 .c-azul{
@@ -12,10 +24,15 @@
     color: #05D1DB;
 }
 
+
 /*Background*/
 .bg-cyan-100{
     background-color: (5, 209, 219, 0.1);
 }
+.bg-cyan-50{
+    background-color: rgba(231, 254, 255, 1);
+}
+
 
 .bg-sydaeh{
     background: url('src/assets/img/bg-sydaeh.png');
@@ -26,6 +43,13 @@
     background: url('src/assets/img/bg-sydaeh-2.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-sydaeh-vectores{
+    background: url('src/assets/img/bg-vector-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 /*BOTONES*/
@@ -67,4 +91,9 @@ hr {
   }
 .ml-n3 {
     margin-left: -0.75rem !important;
+  }
+
+  /*Iconos*/
+  .w-icon{
+    width: 113px;
   }
