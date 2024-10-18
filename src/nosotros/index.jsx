@@ -123,7 +123,7 @@ export const Nosotros = () => {
                     <div className="row bg-white my-16 pt-10 pl-10 pr-10 border shadow rounded-4 ">
                         <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
                             <img src="src/assets/img/icon-cama-hospital.png" alt="icono cama de hospital" className="w-icon" />
-                            <h2 className="display-3 font-bold c-azul">Misión</h2>
+                            <h2 className="display-3 font-bold c-azul">Vision</h2>
                             <p className="fs-4 py-3"><b>Ser el proveedor n°1 de servicios de distribución de productor farmacéuticos intrahospitalarios</b>, material medico quirúrgico, complementos alimenticios, subvenir deportivos y de alta especialidad en el segmento de hospitales privados.</p>
                         </div>
                         <div className="col-12 col-md-6 d-flex ">

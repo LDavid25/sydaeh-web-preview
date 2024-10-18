@@ -4,11 +4,12 @@ import './index.css'
 import { Inicio } from './inicio'
 import { Header } from './header'
 import { Nosotros } from './nosotros'
+import { Servicios } from './servicios'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
-    <Nosotros />
+    <Servicios />
   </StrictMode>,
 )
