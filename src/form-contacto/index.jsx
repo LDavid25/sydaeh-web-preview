@@ -4,7 +4,7 @@ import '../app.css';
 export const FormContacto = () => {
     return (
         <>
-            <section className="container bg-sydaeh-2 py-16 my-16">
+            <section className="container bg-sydaeh-2 py-16 my-16" id='contacto'>
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <h2 className="display-4 fw-bold text-white mx-3">Realiza una cotización</h2>

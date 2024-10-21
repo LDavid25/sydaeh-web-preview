@@ -12,7 +12,7 @@ export const Servicios = () => {
                         <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
                             <h1 className="display-3 text-left c-azul font-bold text-white">Adquiere nuestros servicios</h1>
                             <p className="fs-4 text-left text-white w-75 py-6">Asegura el abastecimiento médico de alta especialidad a tu clínica y hospitales</p>
-                            <button className="btn btn-light rounded-pill px-6 font-bold">Ver servicios</button>
+                            <a href="#servicios" className="btn btn-light rounded-pill px-6 font-bold">Ver servicios</a>
                         </div>
                         <div className="col-12 col-md-6 position-relative">
                             {/* Imagen "Entrega de pedidos" con z-index 9 */}
@@ -27,7 +27,7 @@ export const Servicios = () => {
             </div>
 
             {/* Servicios Section */}
-            <section className="container my-5">
+            <section className="container my-5" id="servicios">
                 <div className="row text-center">
 
                     <h2 className="display-6 font-bold c-cyan">Servicios</h2>
@@ -82,7 +82,7 @@ export const Servicios = () => {
                                 <span className="fs-3 font-bold px-6 c-cyan tag-day">2 días</span>
                             </div>
                             <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between">
-                                <p className="fs-3 c-zul font-bold">Merida, Tijuana</p>
+                                <p className="fs-3 c-zul font-bold">Mérida, Tijuana</p>
                                 <span className="fs-3 font-bold px-6 c-cyan tag-day">1 semana</span>
                             </div>
                             <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between">

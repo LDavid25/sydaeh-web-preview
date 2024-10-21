@@ -28,8 +28,12 @@ span {
 
 
 /*Background*/
+.bg-cyan {
+    background-color: rgba(5, 209, 219);
+}
+
 .bg-cyan-100 {
-    background-color: (5, 209, 219, 0.1);
+    background-color: rgba(5, 209, 219, 0.1);
 }
 
 .bg-cyan-50 {
@@ -109,7 +113,7 @@ hr {
     margin-top: 10rem;
 }
 
-.tag-day{
+.tag-day {
     background-color: rgba(5, 209, 219, .125);
     border-radius: 50px;
 }
