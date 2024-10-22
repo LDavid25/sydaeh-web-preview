@@ -1,20 +1,19 @@
 import React from 'react';
-import '../app.css';
-
+import '../index.css';
 
 
 export const Nosotros = () => {
     return (
         <div className="bg-sydaeh-vectores ">
             {/* Primera Sección - 100% de altura y texto alineado a la izquierda */}
-            <section className="d-flex align-items-center overflow-x-hidden" style={{ minHeight: '1050px', backgroundColor: '#F5F5F5' }}>
+            <section className="d-flex align-items-center py-10" >
                 <div className="container">
                     <div className="row">
                         {/* Sección Izquierda: Ocupa 8 columnas */}
                         <div className="col-12 col-md-7 text-start">
                             <h1 className="display-3 c-azul font-bold w-75">Te apoyamos con el abastecimiento de insumos médicos</h1>
                             <p className="display-6 py-6 w-75">Proporcionamos insumos de forma segura, ¡conoce sobre nosotros!</p>
-                            <button className="btn btn-primary btn-lg z-10">Ver más</button>
+                            <a href="#conocenos" className="btn bg-azul-100 text-white btn-lg z-10">Ver más</a>
                         </div>
 
                         {/* Sección Derecha: Ocupa 4 columnas */}
@@ -53,7 +52,7 @@ export const Nosotros = () => {
             </section>
 
             {/* Sección Conócenos */}
-            <section className="container py-8">
+            <section className="container py-8" id="conocenos">
                 <h4 className="display-6 font-bold c-cyan text-center">Nosotros</h4>
                 <h2 className="display-3 font-bold c-azul text-center">Conócenos</h2>
             </section>

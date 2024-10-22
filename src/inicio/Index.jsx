@@ -2,7 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../app.css';
 import { FormContacto } from '../form-contacto';
 
 
@@ -57,9 +56,9 @@ export const Inicio = () => {
                         <p className="mb-6 fs-4 text-secondary">
                             Nos convertimos en tus aliados para el abastecimiento en el área médica.
                         </p>
-                        <button className="btn btn-primary btn-lg">
+                        <a href="#contacto" className="btn bg-azul-100 btn-lg text-white">
                             Quiero ser asociado
-                        </button>
+                        </a>
                     </div>
 
                     {/* Columna derecha: Imágenes */}
@@ -167,9 +166,9 @@ export const Inicio = () => {
                         </div>
                         <div className="col-md-8 bg-white d-flex align-items-center justify-content-between p-4 shadow-md rounded-xl">
                             <h2 className="w-75 display-4 text-primary fw-bold">¡Forma parte de nuestros clientes directos!</h2>
-                            <button className="btn btn-primary btn-lg">
+                            <a href="#contacto" className="btn btn-primary btn-lg">
                                 Quiero ser asociado
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +182,7 @@ export const Inicio = () => {
                         <span className="display-6 c-cyan fw-bold">Nosotros</span>
                         <h2 className="display-4 text-primary fw-bold">Conócenos</h2>
                         <p className='mb-6 fs-4 text-secondary'>En SYDAEH nos especializamos en llevar un abastecimiento integral, con el fin de garantizar óptimos resultados a nuestros socios comerciales, así como material médico quirúrgico y medicamentos de alta especialidad a entidades de salud públicas y privadas dentro del territorio nacional.</p>
-                        <button className="fw-bold btn btn-rounded-borde rounded-pill">Ver más</button>
+                        <a href="/nosotros" className="fw-bold btn btn-rounded-borde rounded-pill">Ver más</a>
                     </div>
                 </div>
             </section>
@@ -199,14 +198,14 @@ export const Inicio = () => {
                         <div className="col-md-6 col-12 px-16">
                             <img src="src\assets\img\icon-hospital.png" alt="icono hospital" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
                             <p className="display-6 c-azul py-3 py-md-6">Brindamos servicios y distribución a empresas de alta <b>especialidad Hospitalaria</b>.</p>
-                            <button className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</button>
+                            <a href="/servicios" className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</a>
                         </div>
                     </div>
                     <div className="row py-16 flex-sm-column-reverse flex-md-row">
                         <div className="col-md-6 col-12 px-16">
                             <img src="src\assets\img\icon-tubos-ensayo.png" alt="icono tubos de ensayo" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
                             <p className="display-6 c-azul py-3 py-md-6">Trabajamos <b>directamente con laboratorios</b>.</p>
-                            <button className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</button>
+                            <a href="#contacto" className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</a>
                         </div>
                         <div className="col-md-6 col-12">
                             <img src="src\assets\img\microscopio.png" alt="Microscopio" className="img-fluid rounded mb-3 w-100" />
@@ -232,7 +231,7 @@ export const Inicio = () => {
                                     <span className='px-3 fs-3 fw-bold c-azul'>Medicamentos de alta especialidad</span>
                                 </div>
                             </div>
-                            <button className="btn btn-rounded-borde-cyan">Solicita nuestro catálogo</button>
+                            <a href="#contacto" className="btn btn-rounded-borde-cyan text-white">Solicita nuestro catálogo</a>
                         </div>
                         <div className="col-4 d-flex">
                             <img src="src\assets\img\traje-bioseguridad.png" alt="Productos" className="scale-up img-fluid -my-3 d-none d-md-block" />

@@ -10,11 +10,16 @@ span {
     color: #101B51;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
     section {
         padding: 0% 3% 0 3%;
     }
 }
+
 
 
 /*Colores primarios*/
@@ -41,7 +46,7 @@ span {
 }
 
 .bg-azul-100 {
-    background-color: #1226AB;
+    background-color: #1226AB !important;
 }
 
 
@@ -121,4 +126,14 @@ hr {
 /*Iconos*/
 .w-icon {
     width: 113px;
+}
+
+/*Footer*/
+.custom-curve {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5rem;
+    border-radius: 100% 100% 0 0;
 }
