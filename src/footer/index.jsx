@@ -10,18 +10,18 @@ const Footer = () => {
         <footer className="text-white text-center position-relative">
           {/* Contenido principal */}
           <div className="container pb-5">
-            <img src="src/assets/img/isotipo-blanco-sydaeh.png" alt="SYDAEH Logo" style={{ margin: 'auto', maxWidth: '20rem' }} />
+            <img src="/img/isotipo-blanco-sydaeh.png" alt="SYDAEH Logo" style={{ margin: 'auto', maxWidth: '20rem' }} />
             <div className="row">
               <h2 className="fs-3 font-bold mt-10">Contacto</h2>
 
               {/* Información de contacto */}
               <div className="d-flex justify-content-center align-items-center gap-4">
                 <div className="d-flex justify-content-center align-items-center gap-4">
-                  <img width="30" height="30" src="src/assets/img/icons8-envelope-30.png" alt="filled-message" />
+                  <img width="30" height="30" src="/img/icons8-envelope-30.png" alt="filled-message" />
                   <a href="mailto:informes@sydaeh.com.mx" className="text-white fs-4">informes@sydaeh.com.mx</a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center gap-4">
-                  <img src="src/assets/img/icons8-whatsapp-30.png" alt="WhatsApp" width="30" />
+                  <img src="/img/icons8-whatsapp-30.png" alt="WhatsApp" width="30" />
                   <span className="text-white fs-4">7224946580</span>
                 </div>
               </div>
@@ -30,7 +30,7 @@ const Footer = () => {
 
                 <div className="mt-5">
                   <div className="d-flex justify-content-start align-items-center gap-4 mt-3">
-                    <img width="30" height="30" src="src/assets/img/icons8-geo-cerca-40.png" alt="filled-message" />
+                    <img width="30" height="30" src="/img/icons8-geo-cerca-40.png" alt="filled-message" />
                     <h3 className="fs-4 font-bold text-left py-6" >Ubicación</h3>
                   </div>
                   <iframe
@@ -48,7 +48,7 @@ const Footer = () => {
               <div className="col-12 col-md-6 d-flex justify-content-start align-items-center gap-4 mt-3">
                 {/* Horario */}
                 <div className="d-flex justify-content-start align-items-center gap-4 mt-3">
-                  <img src="src/assets/img/icon-calendar.png" alt="Horario" width="40" />
+                  <img src="/img/icon-calendar.png" alt="Horario" width="40" />
                   <span className="ms-2 fs-4 text-white text-left">Horario: <br/>Lunes a viernes de 9 am a 5pm</span>
                 </div>
               </div>

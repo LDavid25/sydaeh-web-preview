@@ -9,7 +9,7 @@ export const FormContacto = () => {
                         <h2 className="display-4 fw-bold text-white mx-3">Realiza una cotización</h2>
                         <span className="fs-4 text-secondary text-white mx-3">¡Habla con nuestro equipo! </span>
                         <hr className='mx-3' />
-                        <img src="src\assets\img\truck-horizontal.png" alt="truck horizontal" className="ml-n3" />
+                        <img src="/img/truck-horizontal.png" alt="truck horizontal" className="ml-n3" />
                     </div>
                     <div className="col-12 col-md-6">
                         <span className="fs-2 text-white fw-bold">Deja aquí tus datos</span>
@@ -45,6 +45,7 @@ export const FormContacto = () => {
                     </div>
                 </div>
             </section>
+
         </>
     )
 }

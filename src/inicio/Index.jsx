@@ -65,14 +65,14 @@ const Inicio = () => {
                     <div className="d-flex justify-content-center align-items-center position-relative">
                         {/* Imagen del hombre */}
                         <img
-                            src="src/assets/img/hombre-sostiene-cajas-sydaeh.png"
+                            src="/img/hombre-sostiene-cajas-sydaeh.png"
                             alt="Hombre sosteniendo cajas"
                             className="img-fluid z-3"
                         />
 
                         {/* Imagen del camión, se oculta en pantallas pequeñas */}
                         <img
-                            src="src/assets/img/truck-transporte.png"
+                            src="/img/truck-transporte.png"
                             alt="Camión de transporte"
                             className="position-absolute d-none d-md-block w-90"
                             style={{ right: '0', marginRight: '-10vw' }}
@@ -80,12 +80,12 @@ const Inicio = () => {
 
                         {/* Píldoras flotantes */}
                         <img
-                            src="src/assets/img/pildora.png"
+                            src="/img/pildora.png"
                             alt="Píldora"
                             className="position-absolute top-0 start-10 w-[100px] animate-bounce"
                         />
                         <img
-                            src="src/assets/img/pildora.png"
+                            src="/img/pildora.png"
                             alt="Píldora"
                             className="position-absolute top-80 end-0 w-25 animate-bounce z-10"
                         />
@@ -102,7 +102,7 @@ const Inicio = () => {
                             {/* Flex container with margin between images */}
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/pharma.png"
+                                    src="/img/pharma.png"
                                     alt="Pharma logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -110,7 +110,7 @@ const Inicio = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/solid-farma.png"
+                                    src="/img/solid-farma.png"
                                     alt="SolidFarma logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -118,7 +118,7 @@ const Inicio = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/servier.png"
+                                    src="/img/servier.png"
                                     alt="Servier logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -126,7 +126,7 @@ const Inicio = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/nestle.png"
+                                    src="/img/nestle.png"
                                     alt="Nestle logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -134,7 +134,7 @@ const Inicio = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/dankel-medical.png"
+                                    src="/img/dankel-medical.png"
                                     alt="Dankel Medical logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -142,7 +142,7 @@ const Inicio = () => {
                             </div>
                             <div className="d-flex justify-content-center align-items-center mx-2">
                                 <img
-                                    src="src/assets/img/astra-zeneca.png"
+                                    src="/img/astra-zeneca.png"
                                     alt="Astra Zeneca logotipo"
                                     className="img-fluid"
                                     style={{ maxHeight: '150px' }}
@@ -159,7 +159,7 @@ const Inicio = () => {
                     <div className="row">
                         <div className="col-md-4 d-flex align-items-center justify-content-center">
                             <img
-                                src="src/assets/img/valle-chalco-logo.png"
+                                src="/img/valle-chalco-logo.png"
                                 alt="Valle del Chalco logotipo"
                                 className="img-fluid"
                             />

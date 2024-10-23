@@ -15,10 +15,10 @@ const Servicios = () => {
                         </div>
                         <div className="col-12 col-md-6 position-relative">
                             {/* Imagen "Entrega de pedidos" con z-index 9 */}
-                            <img src="src/assets/img/entrega-recepcion-pedido.png" alt="Entrega de pedidos" className="position-relative" style={{ zIndex: 9 }} />
+                            <img src="/img/entrega-recepcion-pedido.png" alt="Entrega de pedidos" className="position-relative" style={{ zIndex: 9 }} />
 
                             {/* Imagen "vector 3" con z-index 3 */}
-                            <img src="src/assets/img/vector-4.png" alt="vector 3" className="position-absolute d-none d-lg-block w-[500px]"
+                            <img src="/img/vector-4.png" alt="vector 3" className="position-absolute d-none d-lg-block w-[500px]"
                                 style={{ zIndex: 3, top: '0%', marginLeft: '55%' }} />
                         </div>
                     </div>
@@ -35,30 +35,30 @@ const Servicios = () => {
 
                 <div className="row mt-5">
                     <div className="col-12 col-md-6 mb-4">
-                        <img src="src/assets/img/repartidor-sydaeh.png" alt="Reaprtidor Sydaeh" className="img-fluid" />
+                        <img src="/img/repartidor-sydaeh.png" alt="Reaprtidor Sydaeh" className="img-fluid" />
                         <div className="position-relative">
-                            <img src="src/assets/img/botellas-medicamentos.png" alt="botellas de medicamentos"
+                            <img src="/img/botellas-medicamentos.png" alt="botellas de medicamentos"
                                 className="img-fluid position-absolute"
                                 style={{ zIndex: 3, marginTop: '-40%', marginLeft: '40%' }}
                             />
                         </div>
                     </div>
                     <div className="col-12 col-md-6 d-flex flex-column justify-content-center ">
-                        <img className="w-icon" src="src/assets/img/icon-caja.png" alt="icon caja" />
+                        <img className="w-icon" src="/img/icon-caja.png" alt="icon caja" />
                         <h4 className="display-3 font-bold c-azul mt-3">Distribución</h4>
                         <p className="fs-4">Brindamos servicios y distribución a empresas de alta especialidad hospitalaria.</p>
                     </div>
                 </div>
                 <div className="row mt-md-10">
                     <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
-                        <img className="w-icon" src="src/assets/img/icon-lab.png" alt="icon laboratorio" />
+                        <img className="w-icon" src="/img/icon-lab.png" alt="icon laboratorio" />
                         <h4 className="display-3 font-bold c-azul mt-3">Controles de acceso</h4>
                         <p className="fs-4">Trabajamos directamente con laboratorios</p>
                     </div>
                     <div className="col-12 col-md-6 mb-4">
-                        <img src="src/assets/img/ingeniero-medico.png" alt="Ingeniero médico" className="img-fluid" />
+                        <img src="/img/ingeniero-medico.png" alt="Ingeniero médico" className="img-fluid" />
                         <div className="position-relative hidden d-lg-block ">
-                            <img src="src/assets/img/microscopio-pildora.png" alt="Microscopio con pildora"
+                            <img src="/img/microscopio-pildora.png" alt="Microscopio con pildora"
                                 className="img-fluid position-absolute w-50"
                                 style={{ zIndex: 3, marginTop: '-500px', marginRight: '0%' }}
                             />
@@ -113,13 +113,13 @@ const Servicios = () => {
             <section className="container my-5 py-6">
                 <div className="row">
                     <div className="col-12 col-md-6">
-                        <img className="w-icon" src="src/assets/img/icon-almacen.png" alt="icon almacen" />
+                        <img className="w-icon" src="/img/icon-almacen.png" alt="icon almacen" />
                         <h2 className="display-4 font-bold c-azul ">Conoce nuestra infraestructura</h2>
                         <hr />
                         <p className="fs-4">Tenemos un área de almacenamiento de 700 metros cuadrados, contamos con 3 unidades exclusivas para la distribución de medicamentos e insumos para la salud, contamos con una plantilla de alrededor de 25 personas para brindar un servicio de calidad, distribución de red de frio, contamos con un área administrativa de 125 metros cuadrados, contamos con baños, vestidores, recepción, comedor, sala de juntas.</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <img src="src/assets/img/almacen-sydaeh.png" alt="Infraestructura" className="img-fluid mt-4" />
+                        <img src="/img/almacen-sydaeh.png" alt="Infraestructura" className="img-fluid mt-4" />
                     </div>
                 </div>
             </section>

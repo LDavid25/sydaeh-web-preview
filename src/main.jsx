@@ -9,8 +9,6 @@ import  Productos  from './productos';
 import  Footer  from './footer';
 import './index.css';
 
-
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>

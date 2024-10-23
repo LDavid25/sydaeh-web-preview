@@ -51,19 +51,19 @@ a {
 
 
 .bg-sydaeh {
-    background: url('src/assets/img/bg-sydaeh.png');
+    background: url('/img/bg-sydaeh.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg-sydaeh-2 {
-    background: url('src/assets/img/bg-sydaeh-2.png');
+    background: url('/img/bg-sydaeh-2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg-sydaeh-vectores {
-    background: url('src/assets/img/bg-vector-2.png');
+    background: url('/img/bg-vector-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

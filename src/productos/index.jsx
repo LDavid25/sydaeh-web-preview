@@ -15,21 +15,21 @@ const Productos = () => {
                         </div>
                         <div className="col-12 col-md-7 px-20">
                             <img
-                                src="\src\assets\img\profesional-medico.png"
+                                src="\img\profesional-medico.png"
                                 alt="Profesional médico"
                                 className="img-fluid"
                                 style={{ maxHeight: '800px' }}
                             />
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 <img
-                                    src="src/assets/img/pildora.png"
+                                    src="/img/pildora.png"
                                     alt="Píldora"
                                     className="position-absolute left-[30rem] bottom-20 start-10 w-[100px] animate-bounce z-9 hidden d-md-block"
                                 />
                             </div>
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 <img
-                                    src="src/assets/img/medicamentos.png"
+                                    src="/img/medicamentos.png"
                                     alt="Medicamentos"
                                     className="position-absolute left-10 -top-[25rem] w-[200px] hidden d-md-block"
                                 />
@@ -46,7 +46,7 @@ const Productos = () => {
                     <div className="row">
                         <div className="col-12 col-md-4 mb-4">
                             <div className="card" style={{
-                                backgroundImage: 'url(src/assets/img/enfermera-medicamentos.png)',
+                                backgroundImage: 'url(/img/enfermera-medicamentos.png)',
                                 minHeight: '30rem',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center'
@@ -58,7 +58,7 @@ const Productos = () => {
                         </div>
                         <div className="col-12 col-md-8 mb-4">
                             <div className="card" style={{
-                                backgroundImage: 'url(src/assets/img/doctor-material-quirurgico.png)',
+                                backgroundImage: 'url(/img/doctor-material-quirurgico.png)',
                                 minHeight: '30rem',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center'
@@ -70,7 +70,7 @@ const Productos = () => {
                         </div>
                         <div className="col-12 col-md-8 mb-4">
                             <div className="card" style={{
-                                backgroundImage: 'url(src/assets/img/equipamiento-medico.png)',
+                                backgroundImage: 'url(/img/equipamiento-medico.png)',
                                 minHeight: '30rem',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center'
@@ -82,7 +82,7 @@ const Productos = () => {
                         </div>
                         <div className="col-12 col-md-4 mb-4">
                             <div className="card">
-                                <img src="src/assets/img/bg-azul-logotipo.png" alt="Medicamentos" className="" />
+                                <img src="/img/bg-azul-logotipo.png" alt="Medicamentos" className="" />
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Productos = () => {
                 <div className="container">
                     <div className="row " >
                         <div className="col-12 col-md-5 p-0 m-0 d-flex justify-content-end">
-                            <img src="src/assets/img/atencion-cliente.png" alt="Cotiza ahora" className="img-fluid" />
+                            <img src="/img/atencion-cliente.png" alt="Cotiza ahora" className="img-fluid" />
                         </div>
                         <div className="col-12 col-md-7 bg-azul-100 p-10 d-flex flex-column justify-content-center align-items-start" id="cotizar">
                             <h2 className="fs-3 font-bold text-white ">¡Cotiza ahora!</h2>

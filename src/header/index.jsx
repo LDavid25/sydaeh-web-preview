@@ -29,7 +29,7 @@ const Header = () => {
         <div className="offcanvas offcanvas-end" tabIndex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="mobileMenuLabel">
-              <img src="src/assets/img/isotipo-sydaeh.png" alt="Logo" className="h-10" />
+              <img src="/img/isotipo-sydaeh.png" alt="Logo" className="h-10" />
             </h5>
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>

@@ -19,14 +19,14 @@ const Nosotros = () => {
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 {/* Imagen del hombre */}
                                 <img
-                                    src="src/assets/img/hombre-cargando-caja.png"
+                                    src="/img/hombre-cargando-caja.png"
                                     alt="Hombre cargando cajas"
                                     className="img-fluid z-3"
                                 />
 
                                 {/* Imagen del camión, se oculta en pantallas pequeñas */}
                                 <img
-                                    src="src/assets/img/vector-1.png"
+                                    src="/img/vector-1.png"
                                     alt="vector azul"
                                     className="position-absolute img-fluid hidden d-lg-block"
                                     style={{ right: '0', top: '350px', marginRight: '-10vw' }}
@@ -34,12 +34,12 @@ const Nosotros = () => {
 
                                 {/* Píldoras flotantes */}
                                 <img
-                                    src="src/assets/img/pildora.png"
+                                    src="/img/pildora.png"
                                     alt="Píldora"
                                     className="position-absolute top-0 start-10 w-[100px] animate-bounce z-9"
                                 />
                                 <img
-                                    src="src/assets/img/pildora.png"
+                                    src="/img/pildora.png"
                                     alt="Píldora 2"
                                     className="position-absolute top-80 end-0 w-[150px] z-3"
                                 />
@@ -54,14 +54,14 @@ const Nosotros = () => {
                 <h4 className="display-6 font-bold c-cyan text-center">Nosotros</h4>
                 <h2 className="display-3 font-bold c-azul text-center">Conócenos</h2>
             </section>
-            <section className="py-5" style={{ backgroundImage: "url('src/assets/img/bg-nosotros-1.png')" }}>
+            <section className="py-5" style={{ backgroundImage: "url('/img/bg-nosotros-1.png')" }}>
                 <div className="container text-center">
 
                     <div className="row ">
                         <div className="offset-md-2 col-12 col-md-4 ">
                             <div className="card mb-4 h-100 bg-cyan-50">
                                 <div className="card-body d-flex justify-content align-items-center flex-column">
-                                    <img className="w-icon" src="src/assets/img/icon-check.png" alt="icon check" />
+                                    <img className="w-icon" src="/img/icon-check.png" alt="icon check" />
                                     <br />
                                     <p className="card-text fs-4"><b>Somos una empresa dedicada</b> a satisfacer las crecientes necesidades de abastecimiento integral de medicamentos de alta especialidad y material médico quirúrgico.</p>
                                 </div>
@@ -70,7 +70,7 @@ const Nosotros = () => {
                         <div className="col-12 col-md-4">
                             <div className="card mb-4 h-100 bg-cyan-50 mt-4 mt-md-0">
                                 <div className="card-body d-flex justify-content align-items-center flex-column">
-                                    <img className="w-icon" src="src/assets/img/icon-check.png" alt="icon check" />
+                                    <img className="w-icon" src="/img/icon-check.png" alt="icon check" />
                                     <br />
                                     <p className="card-text fs-4"><b>Ofrecemos precios accesibles</b> para clínicas y hospitales privados, así como instituciones de Salud pública del país.</p>
                                 </div>
@@ -89,7 +89,7 @@ const Nosotros = () => {
                             <p className="fs-4 font-bold">SYDAEH es una organización dedicada a la venta y suministro de medicamentos y demás insumos para la salud al por mayor con capital 100% mexicano.</p>
                         </div>
                         <div className="col-12 col-md-6">
-                            <img src="src/assets/img/sydaeh-logo-fondo-azul.png" alt="Historia de la empresa" className="img-fluid" />
+                            <img src="/img/sydaeh-logo-fondo-azul.png" alt="Historia de la empresa" className="img-fluid" />
                         </div>
                     </div>
                     <div className="row">
@@ -105,12 +105,12 @@ const Nosotros = () => {
                 <div className="container pt-md-[200px] -my-md-[150px] ">
                     <div className="row pt-16">
                         <div className="col-12 col-md-6">
-                            <img src="src/assets/img/suplementos-medicos.png" alt="Insumos medicos"
+                            <img src="/img/suplementos-medicos.png" alt="Insumos medicos"
                                 className="img-fluid position-relative d-none d-md-block w-[35rem]"
                                 style={{ marginLeft: '-9vw' }} />
                         </div>
                         <div className="col-12 col-md-6 d-flex justify-content-center flex-column">
-                            <img src="src/assets/img/icon-trofeo.png" alt="icono Trofeo" className="w-icon" />
+                            <img src="/img/icon-trofeo.png" alt="icono Trofeo" className="w-icon" />
                             <h2 className="display-3 font-bold c-azul">Misión</h2>
                             <p className="fs-4 py-3">Brindar un servicio diferenciado en la distribución,
                                 y dispensación de productos farmacéuticos intrahospitalarios y alta especialidad, para el beneficio de nuestros socios de negocio. </p>
@@ -119,18 +119,18 @@ const Nosotros = () => {
                     </div>
                     <div className="row bg-white my-16 pt-10 pl-10 pr-10 border shadow rounded-4 ">
                         <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
-                            <img src="src/assets/img/icon-cama-hospital.png" alt="icono cama de hospital" className="w-icon" />
+                            <img src="/img/icon-cama-hospital.png" alt="icono cama de hospital" className="w-icon" />
                             <h2 className="display-3 font-bold c-azul">Vision</h2>
                             <p className="fs-4 py-3"><b>Ser el proveedor n°1 de servicios de distribución de productor farmacéuticos intrahospitalarios</b>, material medico quirúrgico, complementos alimenticios, subvenir deportivos y de alta especialidad en el segmento de hospitales privados.</p>
                         </div>
                         <div className="col-12 col-md-6 d-flex ">
-                            <img src="src/assets/img/hombre-doctor.png" alt="Hombre vestido de doctor"
+                            <img src="/img/hombre-doctor.png" alt="Hombre vestido de doctor"
                                 className="z-10"
                             />
-                            <img src="src/assets/img/jeringa.png" alt="jeringa"
+                            <img src="/img/jeringa.png" alt="jeringa"
                                 className="position-relative d-none d-lg-block z-10 w-30"
                                 style={{ top: '-50px', marginLeft: '-50rem' }} />
-                            <img src="src/assets/img/vector-3.png" alt="vector 3"
+                            <img src="/img/vector-3.png" alt="vector 3"
                                 className="position-relative d-none d-lg-block z-1"
                                 style={{ top: '0', marginLeft: '0' }} />
                         </div>
@@ -139,11 +139,11 @@ const Nosotros = () => {
             </section>
 
             {/* Sección Visión */}
-            <section className="pt-[200px] -my-[150px]">
+            <section className="pb-16">
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                        <img src="src/assets/img/icon-meta.png" alt="icono meta" className="w-icon" />
+                        <img src="/img/icon-meta.png" alt="icono meta" className="w-icon" />
                         <h2 className="display-3 font-bold c-azul">Valores</h2>
                             <div className="py-6">
                                 <ul className='fs-4 c-cyan justify-content-between font-bold d-md-flex text-center'>
@@ -155,7 +155,7 @@ const Nosotros = () => {
                                 </ul>
                             </div>
                             <div>
-                                <img src="src/assets/img/equipo-trabajo-sydaeh.png" alt="Equipo de trabajo de la empresa SYDAEH" className="img-fluid" />
+                                <img src="/img/equipo-trabajo-sydaeh.png" alt="Equipo de trabajo de la empresa SYDAEH" className="img-fluid" />
                             </div>
                         </div>
                     </div>
