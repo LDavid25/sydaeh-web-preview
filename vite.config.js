@@ -4,14 +4,8 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': '/src', // Alias para simplificar importaciones
-    },
-  },
+  logLevel: 'debug', // Cambia a 'debug' para más detalles
   build: {
-    rollupOptions: {
-      external: [], // Asegúrate de que el módulo no esté marcado como externo
-    },
-  },
+    sourcemap: true, // Habilita sourcemaps para ver mejor los errores
+  }
 });
