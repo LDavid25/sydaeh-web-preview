@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';
 
 
-export const Nosotros = () => {
+const Nosotros = () => {
     return (
         <div className="bg-sydaeh-vectores ">
             {/* Primera Sección - 100% de altura y texto alineado a la izquierda */}
@@ -169,3 +169,5 @@ export const Nosotros = () => {
         </div>
     );
 }
+
+export default Nosotros;

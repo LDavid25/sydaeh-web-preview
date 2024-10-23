@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { FormContacto } from '../form-contacto';
 
-export const Productos = () => {
+const Productos = () => {
     return (
         <div>
             {/* Sección: Encabezado */}
@@ -112,3 +112,5 @@ export const Productos = () => {
         </div>
     );
 }
+
+export default Productos;

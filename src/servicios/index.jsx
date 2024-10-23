@@ -2,7 +2,7 @@ import React from 'react';
 import '../app.css';
 import { FormContacto } from '../form-contacto';
 
-export const Servicios = () => {
+const Servicios = () => {
     return (
         <div className="overflow-x-hidden">
             {/* Header Section */}
@@ -131,3 +131,5 @@ export const Servicios = () => {
         </div>
     )
 }
+
+export default Servicios;

@@ -2,7 +2,7 @@ import React from 'react';
 import '../index.css';
 import { auto } from '@popperjs/core';
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       {/* Curva en la parte superior */}
@@ -59,3 +59,5 @@ export const Footer = () => {
     </>
   );
 };
+
+export default Footer;

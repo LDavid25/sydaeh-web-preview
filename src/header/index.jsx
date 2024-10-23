@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Para los íconos de Bootstrap
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="bg-white shadow-md p-4">
       <div className="container d-flex justify-content-between align-items-center">
@@ -57,3 +57,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

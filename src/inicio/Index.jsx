@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FormContacto } from '../form-contacto';
 
 
-export const Inicio = () => {
+const Inicio = () => {
 
     const settings = {
         dots: false,
@@ -247,3 +247,5 @@ export const Inicio = () => {
         </div>
     );
 }
+
+export default Inicio;
