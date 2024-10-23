@@ -2,10 +2,10 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import  Header  from './header';
+import  Inicio  from './inicio/index.jsx';
 import  Nosotros  from './nosotros';
 import  Servicios  from './servicios';
 import  Productos  from './productos';
-import  Inicio  from './inicio';
 import  Footer  from './footer';
 import './index.css';
 

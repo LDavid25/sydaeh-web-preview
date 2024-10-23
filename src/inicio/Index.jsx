@@ -177,7 +177,7 @@ const Inicio = () => {
             {/* Sección Conócenos */}
             <section className="bg-white py-5">
                 <div className="container d-flex flex-column flex-lg-row align-items-center">
-                    <img src="src\assets\img\instalaciones-sydaeh.png" alt="Conócenos" className="img-fluid rounded mb-3 mb-lg-0 w-50" />
+                    <img src="\img\instalaciones-sydaeh.png" alt="Conócenos" className="img-fluid rounded mb-3 mb-lg-0 w-50" />
                     <div className="ms-lg-4 text-lg-start px-16">
                         <span className="display-6 c-cyan fw-bold">Nosotros</span>
                         <h2 className="display-4 text-primary fw-bold">Conócenos</h2>
@@ -193,22 +193,22 @@ const Inicio = () => {
                     <h2 className="display-5 mb-4 c-cyan text-center fw-bold">Servicios</h2>
                     <div className="row py-16">
                         <div className="col-md-6 col-12">
-                            <img src="src\assets\img\servicio-hopitalario.png" alt="Servicio hospitalario" className="img-fluid rounded mb-3 w-100" />
+                            <img src="\img\servicio-hopitalario.png" alt="Servicio hospitalario" className="img-fluid rounded mb-3 w-100" />
                         </div>
                         <div className="col-md-6 col-12 px-16">
-                            <img src="src\assets\img\icon-hospital.png" alt="icono hospital" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
+                            <img src="\img\icon-hospital.png" alt="icono hospital" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
                             <p className="display-6 c-azul py-3 py-md-6">Brindamos servicios y distribución a empresas de alta <b>especialidad Hospitalaria</b>.</p>
                             <a href="/servicios" className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</a>
                         </div>
                     </div>
                     <div className="row py-16 flex-sm-column-reverse flex-md-row">
                         <div className="col-md-6 col-12 px-16">
-                            <img src="src\assets\img\icon-tubos-ensayo.png" alt="icono tubos de ensayo" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
+                            <img src="\img\icon-tubos-ensayo.png" alt="icono tubos de ensayo" className="img-fluid rounded mb-3 mb-lg-0 w-20" />
                             <p className="display-6 c-azul py-3 py-md-6">Trabajamos <b>directamente con laboratorios</b>.</p>
                             <a href="#contacto" className="fw-bold btn btn-rounded-borde rounded-pill">Conocer más</a>
                         </div>
                         <div className="col-md-6 col-12">
-                            <img src="src\assets\img\microscopio.png" alt="Microscopio" className="img-fluid rounded mb-3 w-100" />
+                            <img src="\img\microscopio.png" alt="Microscopio" className="img-fluid rounded mb-3 w-100" />
                         </div>
                     </div>
                 </div>
@@ -223,18 +223,18 @@ const Inicio = () => {
                             <p className="mb-3 text-white display-6">¡Ten acceso directo a nuestro catálogo de productos y forma parte de nuestros asociados comerciales!</p>
                             <div className="w-100 d-flex flex-column flex-md-row py-10 justify-content-around flex-sm-colum">
                                 <div className="bg-white m-3 p-3 rounded-xl d-flex align-items-center">
-                                    <img src="src\assets\img\icon-instrumentos.png" alt="icono instrumentos quirurgicos" />
+                                    <img src="\img\icon-instrumentos.png" alt="icono instrumentos quirurgicos" />
                                     <span className='px-3 fs-3 fw-bold c-azul'>Productos quirúrgicos </span>
                                 </div>
                                 <div className="bg-white m-3 p-3 rounded-xl d-flex align-items-center">
-                                    <img src="src\assets\img\icon-bioseguridad.png" alt="icono Bioseguridad" />
+                                    <img src="\img\icon-bioseguridad.png" alt="icono Bioseguridad" />
                                     <span className='px-3 fs-3 fw-bold c-azul'>Medicamentos de alta especialidad</span>
                                 </div>
                             </div>
                             <a href="#contacto" className="btn btn-rounded-borde-cyan text-white">Solicita nuestro catálogo</a>
                         </div>
                         <div className="col-4 d-flex">
-                            <img src="src\assets\img\traje-bioseguridad.png" alt="Productos" className="scale-up img-fluid -my-3 d-none d-md-block" />
+                            <img src="\img\traje-bioseguridad.png" alt="Productos" className="scale-up img-fluid -my-3 d-none d-md-block" />
                         </div>
                     </div>
                 </div>
