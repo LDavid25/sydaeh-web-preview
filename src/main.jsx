@@ -5,7 +5,7 @@ import { Header } from './header';
 import { Nosotros } from './nosotros';
 import { Servicios } from './servicios';
 import { Productos } from './productos';
-import  Inicio  from './inicio';
+import { Inicio } from './inicio';
 import { Footer } from './footer';
 import './index.css';
 
