@@ -1,5 +1,4 @@
 import React from 'react';
-import '../app.css';
 import { FormContacto } from '../form-contacto';
 
 const Servicios = () => {
