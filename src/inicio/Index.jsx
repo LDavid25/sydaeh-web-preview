@@ -246,4 +246,4 @@ export const Inicio = () => {
 
         </div>
     );
-};
+}
