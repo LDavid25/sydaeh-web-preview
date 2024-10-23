@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Inicio = () => {
+const Home = () => {
 
     return(
         <>
@@ -11,4 +11,4 @@ const Inicio = () => {
     
 }
 
-export default Inicio;
+export default Home;
