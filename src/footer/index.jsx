@@ -15,7 +15,7 @@ const Footer = () => {
               <h2 className="fs-3 font-bold mt-10">Contacto</h2>
 
               {/* Información de contacto */}
-              <div className="d-flex justify-content-center align-items-center gap-4">
+              <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
                 <div className="d-flex justify-content-center align-items-center gap-4">
                   <img width="30" height="30" src="/img/icons8-envelope-30.png" alt="filled-message" />
                   <a href="mailto:informes@sydaeh.com.mx" className="text-white fs-4">informes@sydaeh.com.mx</a>

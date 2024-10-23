@@ -8,7 +8,7 @@ const Header = () => {
     <header className="bg-white shadow-md p-4">
       <div className="container d-flex justify-content-between align-items-center">
         <a href="/">
-          <img src="src/header/img/sydaeh-logo.png" alt="Logo" className="h-10" />
+          <img src="/img/sydaeh-logo.png" alt="Logo" className="h-10" />
         </a>
 
         {/* Navbar for larger screens */}
