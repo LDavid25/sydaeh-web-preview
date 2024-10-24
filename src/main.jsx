@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import  Header  from './header';
-import  Home  from './Home';
+import Principal from './Principal';
 import  Nosotros  from './nosotros';
 import  Servicios  from './servicios';
 import  Productos  from './productos';
@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Principal />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/servicios" element={<Servicios />} />
         <Route path="/productos" element={<Productos />} />
