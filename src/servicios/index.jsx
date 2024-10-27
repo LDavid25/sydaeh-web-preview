@@ -5,15 +5,15 @@ const Servicios = () => {
     return (
         <div className="overflow-x-hidden">
             {/* Header Section */}
-            <div className="bg-azul-100">
+            <div className="bg-azul-100 px-2">
                 <section className="container pt-6">
                     <div className="row position-relative">
-                        <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+                        <div className="col-12 col-md-5 d-flex flex-column justify-content-center align-items-start">
                             <h1 className="display-3 text-left c-azul font-bold text-white">Adquiere nuestros servicios</h1>
-                            <p className="fs-4 text-left text-white w-75 py-6">Asegura el abastecimiento médico de alta especialidad a tu clínica y hospitales</p>
+                            <p className="fs-4 text-left text-white py-6">Asegura el abastecimiento médico de alta especialidad a tu clínica y hospitales</p>
                             <a href="#servicios" className="btn btn-light rounded-pill px-6 font-bold">Ver servicios</a>
                         </div>
-                        <div className="col-12 col-md-6 position-relative">
+                        <div className="col-12 col-md-5 offset-md-1 position-relative">
                             {/* Imagen "Entrega de pedidos" con z-index 9 */}
                             <img src="/img/entrega-recepcion-pedido.png" alt="Entrega de pedidos" className="position-relative" style={{ zIndex: 9 }} />
 
@@ -49,8 +49,8 @@ const Servicios = () => {
                         <p className="fs-4">Brindamos servicios y distribución a empresas de alta especialidad hospitalaria.</p>
                     </div>
                 </div>
-                <div className="row mt-md-10">
-                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center">
+                <div className="row my-10">
+                    <div className="col-12 col-md-6 d-flex flex-column justify-content-center" >
                         <img className="w-icon" src="/img/icon-lab.png" alt="icon laboratorio" />
                         <h4 className="display-3 font-bold c-azul mt-3">Controles de acceso</h4>
                         <p className="fs-4">Trabajamos directamente con laboratorios</p>
@@ -68,7 +68,7 @@ const Servicios = () => {
             </section>
 
             {/* Distribución Section */}
-            <section className="bg-azul-100 text-white py-5 text-center">
+            <section className="bg-azul-100 text-white py-5 text-center px-2">
                 <div className="container">
                     <div className="d-flex flex-column justify-content-center align-items-center pb-6">
                         <h2 className="display-4 font-bold text-white">Conoce nuestros períodos de entrega</h2>
@@ -76,21 +76,21 @@ const Servicios = () => {
                     </div>
                     <div className="row">
                         <div className="col-12 col-md-6">
-                            <div className="bg-white p-6 rounded-4 d-flex justify-content-between">
+                            <div className="bg-white p-6 rounded-4 d-flex justify-content-between flex-sm-row">
                                 <p className="fs-3 c-zul font-bold">Guadalajara, Guanajuato, Puebla, Tlaxcal</p>
-                                <span className="fs-3 font-bold px-6 c-cyan tag-day">2 días</span>
+                                <span className="fs-5 font-bold px-6 c-cyan tag-day">2 días</span>
                             </div>
-                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between">
+                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between flex-sm-row">
                                 <p className="fs-3 c-zul font-bold">Mérida, Tijuana</p>
-                                <span className="fs-3 font-bold px-6 c-cyan tag-day">1 semana</span>
+                                <span className="fs-5 font-bold px-6 c-cyan tag-day">1 semana</span>
                             </div>
-                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between">
+                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between flex-sm-row">
                                 <p className="fs-3 c-zul font-bold">Monterrey, San Luis, Campeche</p>
-                                <span className="fs-3 font-bold px-6 c-cyan tag-day">3 a 4 días</span>
+                                <span className="fs-5 font-bold px-6 c-cyan tag-day">3 a 4 días</span>
                             </div>
-                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between">
+                            <div className="bg-white p-6 my-3 rounded-4 d-flex justify-content-between flex-sm-row">
                                 <p className="fs-3 c-zul font-bold">En Hospitales CDMX</p>
-                                <span className="fs-3 font-bold px-6 c-cyan tag-day">Entrega el mismo día</span>
+                                <span className="fs-5 font-bold px-6 c-cyan tag-day">Entrega el mismo día</span>
                             </div>
                         </div>
                         <div className="col-12 col-md-6">

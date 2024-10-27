@@ -26,7 +26,7 @@ const Header = () => {
         </button>
 
         {/* Offcanvas menu for mobile */}
-        <div className="offcanvas offcanvas-end" tabIndex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div className="offcanvas offcanvas-end w-75" tabIndex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
           <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="mobileMenuLabel">
               <img src="/img/isotipo-sydaeh.png" alt="Logo" className="h-10" />
@@ -36,13 +36,13 @@ const Header = () => {
           <div className="offcanvas-body font-bold">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link c-azul" to="/nosotros" data-bs-dismiss="offcanvas">Nosotros</Link>
+                <Link className="nav-link c-azul" to="/nosotros" >Nosotros</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link c-azul" to="/servicios" data-bs-dismiss="offcanvas">Servicios</Link>
+                <Link className="nav-link c-azul" to="/servicios" >Servicios</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link c-azul" to="/productos" data-bs-dismiss="offcanvas">Productos</Link>
+                <Link className="nav-link c-azul" to="/productos" >Productos</Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link c-azul" href="#contacto" >Contacto</a>

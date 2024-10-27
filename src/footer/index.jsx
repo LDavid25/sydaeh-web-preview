@@ -10,12 +10,12 @@ const Footer = () => {
         <footer className="text-white text-center position-relative">
           {/* Contenido principal */}
           <div className="container pb-5">
-            <img src="/img/isotipo-blanco-sydaeh.png" alt="SYDAEH Logo" style={{ margin: 'auto', maxWidth: '20rem' }} />
+            <img src="/img/isotipo-blanco-sydaeh.png" alt="SYDAEH Logo" style={{ margin: 'auto', minWidth: '20%', maxWidth: '80%' }} />
             <div className="row">
               <h2 className="fs-3 font-bold mt-10">Contacto</h2>
 
               {/* Información de contacto */}
-              <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
+              <div className="d-flex flex-wrap justify-content-center align-items-center gap-4 pt-3">
                 <div className="d-flex justify-content-center align-items-center gap-4">
                   <img width="30" height="30" src="/img/icons8-envelope-30.png" alt="filled-message" />
                   <a href="mailto:informes@sydaeh.com.mx" className="text-white fs-4">informes@sydaeh.com.mx</a>

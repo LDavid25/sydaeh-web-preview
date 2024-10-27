@@ -2,20 +2,20 @@ import React from 'react';
 
 const Nosotros = () => {
     return (
-        <div className="bg-sydaeh-vectores ">
+        <div className="bg-sydaeh-vectores px-2">
             {/* Primera Sección - 100% de altura y texto alineado a la izquierda */}
             <section className="d-flex align-items-center py-10" >
                 <div className="container">
                     <div className="row">
                         {/* Sección Izquierda: Ocupa 8 columnas */}
-                        <div className="col-12 col-md-7 text-start">
-                            <h1 className="display-3 c-azul font-bold w-75">Te apoyamos con el abastecimiento de insumos médicos</h1>
-                            <p className="display-6 py-6 w-75">Proporcionamos insumos de forma segura, ¡conoce sobre nosotros!</p>
+                        <div className="col-12 col-md-5 text-start">
+                            <h1 className="display-3 c-azul font-bold">Te apoyamos con el abastecimiento de insumos médicos</h1>
+                            <p className="display-6 py-6">Proporcionamos insumos de forma segura, ¡conoce sobre nosotros!</p>
                             <a href="#conocenos" className="btn bg-azul-100 text-white btn-lg z-10">Ver más</a>
                         </div>
 
                         {/* Sección Derecha: Ocupa 4 columnas */}
-                        <div className="col-12 col-md-5">
+                        <div className="col-12 col-md-5 offset-md-2">
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 {/* Imagen del hombre */}
                                 <img
@@ -32,16 +32,27 @@ const Nosotros = () => {
                                     style={{ right: '0', top: '350px', marginRight: '-10vw' }}
                                 />
 
-                                {/* Píldoras flotantes */}
+                                {/* Píldoras flotantes md*/}
                                 <img
                                     src="/img/pildora.png"
                                     alt="Píldora"
-                                    className="position-absolute top-0 start-10 w-[100px] animate-bounce z-9"
+                                    className="position-absolute top-0 start-10 w-[100px] z-9 d-none d-md-block"
                                 />
                                 <img
                                     src="/img/pildora.png"
                                     alt="Píldora 2"
-                                    className="position-absolute top-80 end-0 w-[150px] z-3"
+                                    className="position-absolute top-80 end-0 w-[150px] z-3 d-none d-md-block"
+                                />
+                                {/* Píldoras flotantes sm*/}
+                                <img
+                                    src="/img/pildora.png"
+                                    alt="Píldora"
+                                    className="position-absolute top-0 start-10 w-[100px] z-9 d-md-none"
+                                />
+                                <img
+                                    src="/img/pildora.png"
+                                    alt="Píldora 2"
+                                    className="position-absolute top-50 end-0 w-[75px] z-3 d-md-none"
                                 />
                             </div>
                         </div>
@@ -93,7 +104,7 @@ const Nosotros = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <p className="fs-4 py-6 border shadow rounded-4 p-5 my-5 bg-white z-10" >
+                        <p className="fs-4 border shadow rounded-4 p-5 my-5 bg-white z-10" >
                             Es una marca joven, firme y comprometida en cumplir objetivos a través de la dedicación y esfuerzo de cada colaborador en el con presencia Estado de México y Ciudad de México Inicia operaciones en el año 2019, en la actualidad se cuenta con un almacén en el Municipio de Lerma de Villada, Estado de México y un almacén en la alcaldía Benito Juárez, CDMX. El personal de SYDAEH es parte fundamental de la organización, por lo cual está enfocado / capacitado para brindar servicio de calidad a los clientes que forman parte del ramo farmacéutico.
                         </p>
                     </div>
@@ -102,8 +113,8 @@ const Nosotros = () => {
 
             {/* Sección Misión */}
             <section className="overflow-x-hidden">
-                <div className="container pt-md-[200px] -my-md-[150px] ">
-                    <div className="row pt-16">
+                <div className="container">
+                    <div className="row pt-md-16 pt-sm-0">
                         <div className="col-12 col-md-6">
                             <img src="/img/suplementos-medicos.png" alt="Insumos medicos"
                                 className="img-fluid position-relative d-none d-md-block w-[35rem]"

@@ -13,25 +13,34 @@ const Productos = () => {
                             <p className="fs-4 py-6 text-start w-100 w-md-50">Nos convertimos en tus aliados para el abastecimiento en el área médica.</p>
                             <a href="#cotizar" className="bg-azul-100 text-white font-bold rounded-pill px-4 py-2">Quiero ser asociado</a>
                         </div>
-                        <div className="col-12 col-md-7 px-20">
+                        <div className="col-12 col-md-7">
                             <img
                                 src="\img\profesional-medico.png"
                                 alt="Profesional médico"
                                 className="img-fluid"
-                                style={{ maxHeight: '800px' }}
                             />
+                            {/* visible en md */}
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 <img
                                     src="/img/pildora.png"
                                     alt="Píldora"
-                                    className="position-absolute left-[30rem] bottom-20 start-10 w-[100px] animate-bounce z-9 hidden d-md-block"
+                                    className="position-absolute bottom-20 w-[100px] z-9 d-none d-md-block"
                                 />
                             </div>
                             <div className="d-flex justify-content-center align-items-center position-relative">
                                 <img
                                     src="/img/medicamentos.png"
                                     alt="Medicamentos"
-                                    className="position-absolute left-10 -top-[25rem] w-[200px] hidden d-md-block"
+                                    className="position-absolute left-10 -top-[30rem] w-[200px] d-none d-md-block"
+                                />
+                            </div>
+
+                            {/* visible en md */}
+                            <div className="position-relative -top-12 left-10  d-md-none d-sm-block" >
+                                <img
+                                    src="/img/medicamentos.png"
+                                    alt="Medicamentos"
+                                    className="position-absolute w-[100px]"
                                 />
                             </div>
                         </div>
