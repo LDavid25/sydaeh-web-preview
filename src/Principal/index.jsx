@@ -8,6 +8,7 @@ const Principal = () => {
 
     const settings = {
         dots: false,
+        arrows: false,
         infinite: true,
         speed: 500,
         slidesToShow: 5,
@@ -41,6 +42,19 @@ const Principal = () => {
                 }
             }
         ]
+    };
+
+    const settingsClients = {
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: true,
+        cssEase: "linear",
     };
 
     return (
@@ -167,14 +181,78 @@ const Principal = () => {
             <section className="bg-cyan-100 py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-                            <img
-                                src="/img/valle-chalco-logo.png"
-                                alt="Valle del Chalco logotipo"
-                                className="img-fluid"
-                            />
+                        <div className="col-12 col-md-4">
+                            <div className="py-4 bg-white d-flex h-100 flex-column shadow-md rounded-md-xl">
+                                <Slider {...settingsClients}>
+                                    {/* Flex container with margin between images */}
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente1.png"
+                                            alt="Hospital San Ángel"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente2.png"
+                                            alt="Secretaría de salud"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente3.png"
+                                            alt="MédicaSur"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente4.png"
+                                            alt="ISSSTE"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente5.png"
+                                            alt="Hospital español"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente6.png"
+                                            alt="issemym"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente7.png"
+                                            alt="PEMEX"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                    <div className="d-flex flex-column align-items-center justify-content-center">
+                                        <img
+                                            src="/img/cliente8.png"
+                                            alt="Hospital Star Médica"
+                                            className="img-fluid"
+                                            
+                                        />
+                                    </div>
+                                </Slider>
+                            </div>
                         </div>
-                        <div className="col-12 col-md-8 bg-white d-flex flex-sm-row align-items-center justify-content-between p-4 shadow-md rounded-xl">
+                        <div className="col-12 col-md-8 bg-white d-flex flex-sm-row align-items-center justify-content-between p-4 shadow-md rounded-md-xl">
                             <h2 className="display-5 text-primary fw-bold p-lg-4">¡Forma parte de nuestros clientes directos!</h2>
                             <a href="#contacto" className="btn btn-primary btn-lg">
                                 Quiero ser asociado

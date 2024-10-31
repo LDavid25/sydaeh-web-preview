@@ -17,7 +17,6 @@ const Header = () => {
           <Link to="/servicios" className="c-azul">Servicios</Link>
           <Link to="/productos" className="c-azul">Productos</Link>
           <a href="#contacto" className="c-azul">Contacto</a>
-          <Link to="/faq" className="bg-cyan text-white px-4 py-2 rounded-md">FAQ</Link>
         </nav>
 
         {/* Button for mobile (collapsible menu with hamburger icon) */}
@@ -46,9 +45,6 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link c-azul" href="#contacto" >Contacto</a>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link bg-blue-700 text-white px-4 py-2 rounded-md" to="/faq" data-bs-dismiss="offcanvas">FAQ</Link>
               </li>
             </ul>
           </div>
